@@ -1,0 +1,409 @@
+{
+	"info": {
+		"_postman_id": "76114f99-9b13-4102-a76b-0c0c9e104a21",
+		"name": "Estore_Angular",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20775113"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/v1/product/saveProduct",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"9fb0d066-ea77-4330-841a-4fcedb4452e8\",\r\n  \"name\":\"kamija\",\r\n  \"price\":156666,\r\n  \"quantity\":550,\r\n  \"promotion\":false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/product/updateProduct",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"product",
+						"updateProduct"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8080/api/v1/product/saveProduct",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\":\"chemise\",\"price\":269,\"quantity\":550,\"promotion\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/product/saveProduct",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"product",
+								"saveProduct"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 16 Oct 2022 15:26:29 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"b83d4f80-6a34-4ac5-94ac-88d7d5c8ff03\",\n    \"name\": \"chemise\",\n    \"price\": 269,\n    \"quantity\": 550,\n    \"promotion\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/v1/product/deleteProduct/dae7598e-802b-4efc-924d-7cb2db60a6a0",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"nacer\",\r\n    \"quantity\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/product/deleteProduct/dae7598e-802b-4efc-924d-7cb2db60a6a0",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"product",
+						"deleteProduct",
+						"dae7598e-802b-4efc-924d-7cb2db60a6a0"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8080/api/v1/product/deleteProduct/dae7598e-802b-4efc-924d-7cb2db60a6a0",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"nacer\",\r\n    \"quantity\": 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/product/deleteProduct/dae7598e-802b-4efc-924d-7cb2db60a6a0",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"product",
+								"deleteProduct",
+								"dae7598e-802b-4efc-924d-7cb2db60a6a0"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 16 Oct 2022 15:29:42 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/v1/product/saveProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"chams\",\r\n    \"price\": 69,\r\n    \"quantity\": 550,\r\n    \"promotion\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/product/saveProduct",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"product",
+						"saveProduct"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8080/api/v1/product/saveProduct",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"chams\",\r\n    \"price\": 69,\r\n    \"quantity\": 550,\r\n    \"promotion\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/product/saveProduct",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"product",
+								"saveProduct"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 16 Oct 2022 15:32:59 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"f869c2da-be3f-4ca7-b3d4-1748da5bffb1\",\n    \"name\": \"chams\",\n    \"price\": 69,\n    \"quantity\": 550,\n    \"promotion\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/v1/product/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/product/products",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"product",
+						"products"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8080/api/v1/product/products",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/product/products",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"product",
+								"products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 16 Oct 2022 15:33:51 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"07a155ea-9e8e-4540-ad57-fd8676e73542\",\n        \"name\": \"stylo\",\n        \"price\": 25,\n        \"quantity\": 80,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"1062d80e-8ef2-425d-ab39-e8a49b910885\",\n        \"name\": \"kitman\",\n        \"price\": 300,\n        \"quantity\": 150,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"127f303b-325a-4cd0-bcf9-c2ed8a2b1cc5\",\n        \"name\": \"pc hp\",\n        \"price\": 6500,\n        \"quantity\": 0,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"1c8bdea3-15f3-492a-a506-2c94004ce943\",\n        \"name\": \"braslets\",\n        \"price\": 10,\n        \"quantity\": 15000,\n        \"promotion\": false\n    },\n    {\n        \"id\": \"30d4064d-b886-42fa-8682-ed56f173e470\",\n        \"name\": \"chasette\",\n        \"price\": 10,\n        \"quantity\": 1500,\n        \"promotion\": false\n    },\n    {\n        \"id\": \"360a42fe-7c23-453c-962c-130f6148306d\",\n        \"name\": \"briquet\",\n        \"price\": 2,\n        \"quantity\": 800,\n        \"promotion\": false\n    },\n    {\n        \"id\": \"36c82e29-1265-4ace-9c8a-948284485a0e\",\n        \"name\": \"montre\",\n        \"price\": 225,\n        \"quantity\": 80,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"38206cc2-0747-4ff8-90d4-401614d64aa1\",\n        \"name\": \"lunette\",\n        \"price\": 30,\n        \"quantity\": 150,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"4baa1044-0b5f-4f55-91e4-2aec3f543856\",\n        \"name\": \"printer\",\n        \"price\": 1500,\n        \"quantity\": 0,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"596efe7c-7ed6-4b6d-8394-2e707edbee01\",\n        \"name\": \"bague\",\n        \"price\": 15,\n        \"quantity\": 15000,\n        \"promotion\": false\n    },\n    {\n        \"id\": \"6f8d6f50-7b02-4344-9407-745a07cd9316\",\n        \"name\": \"spadrille\",\n        \"price\": 22,\n        \"quantity\": 550,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"71935901-7f92-4025-9847-6d656cda25f4\",\n        \"name\": \"pc dell\",\n        \"price\": 6000,\n        \"quantity\": 0,\n        \"promotion\": false\n    },\n    {\n        \"id\": \"79bc105f-f409-4285-bb51-4fc852202387\",\n        \"name\": \"decor\",\n        \"price\": 50,\n        \"quantity\": 190,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"88e53965-c555-4d44-a6c2-9e13fa5d0b58\",\n        \"name\": \"frfara\",\n        \"price\": 100,\n        \"quantity\": 80,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"9d79aa2d-b7d1-4704-902e-2da71523cc07\",\n        \"name\": \"pc azus\",\n        \"price\": 6300,\n        \"quantity\": 0,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"9fb0d066-ea77-4330-841a-4fcedb4452e8\",\n        \"name\": \"kamija\",\n        \"price\": 156666,\n        \"quantity\": 550,\n        \"promotion\": false\n    },\n    {\n        \"id\": \"ac69bc2a-9cf7-4c96-b53d-0703132653fa\",\n        \"name\": \"sachets\",\n        \"price\": 1,\n        \"quantity\": 15000,\n        \"promotion\": false\n    },\n    {\n        \"id\": \"b83d4f80-6a34-4ac5-94ac-88d7d5c8ff03\",\n        \"name\": \"chemise\",\n        \"price\": 269,\n        \"quantity\": 550,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"b8b17239-ca1c-454f-88fb-a9a0c6cf7e5c\",\n        \"name\": \"livres\",\n        \"price\": 225,\n        \"quantity\": 50,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"b9dae966-1b13-4bb5-a91b-284556329e1e\",\n        \"name\": \"smart phone\",\n        \"price\": 5500,\n        \"quantity\": 0,\n        \"promotion\": false\n    },\n    {\n        \"id\": \"bb514b1f-4dd2-4652-b006-df31eb01c41b\",\n        \"name\": \"frigo\",\n        \"price\": 15600,\n        \"quantity\": 90,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"cb4a0fee-6a09-48bc-afe5-5cac3c015603\",\n        \"name\": \"radio\",\n        \"price\": 150,\n        \"quantity\": 190,\n        \"promotion\": true\n    },\n    {\n        \"id\": \"f869c2da-be3f-4ca7-b3d4-1748da5bffb1\",\n        \"name\": \"chams\",\n        \"price\": 69,\n        \"quantity\": 550,\n        \"promotion\": true\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/v1/product/product/07a155ea-9e8e-4540-ad57-fd8676e73542",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/product/product/07a155ea-9e8e-4540-ad57-fd8676e73542",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"product",
+						"product",
+						"07a155ea-9e8e-4540-ad57-fd8676e73542"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8080/api/v1/product/product/07a155ea-9e8e-4540-ad57-fd8676e73542",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/product/product/07a155ea-9e8e-4540-ad57-fd8676e73542",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"product",
+								"product",
+								"07a155ea-9e8e-4540-ad57-fd8676e73542"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 16 Oct 2022 15:35:13 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"07a155ea-9e8e-4540-ad57-fd8676e73542\",\n    \"name\": \"stylo\",\n    \"price\": 25,\n    \"quantity\": 80,\n    \"promotion\": true\n}"
+				}
+			]
+		}
+	]
+}
